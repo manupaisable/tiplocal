@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.happymonday.tiplocal.tiplikealocal.CalculateTip">
+
+    <TextView
+        android:id="@+id/totalAmountText"
+        android:text="@string/total_amount_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/totalAmountValue"
+        android:text="@string/total_amount_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/totalAmountText" />
+
+    <TextView
+        android:id="@+id/tipAmountText"
+        android:text="@string/tip_amount_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/totalAmountText" />
+
+    <TextView
+        android:id="@+id/tipAmountValue"
+        android:text="@string/tip_amount_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tipAmountText"
+        android:layout_below="@+id/totalAmountValue" />
+
+</RelativeLayout>

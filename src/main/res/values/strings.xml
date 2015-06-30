@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Tip Like a Local!</string>
+
+    <!-- total amount -->
+    <string name="total_amount_tip">Bill\'s total amount?</string>
+    <string name="total_amount_text">Total amount:</string>
+    <string name="total_amount_value">totalAmountValue</string>
+
+    <string name="enter_total_amount">Enter</string>
+
+    <!-- tip amount -->
+    <string name="tip_amount_text">Tip amount:</string>
+    <string name="tip_amount_value">tipAmountValue</string>
+
+    <string name="title_activity_calculate_tip">CalculateTip</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>
